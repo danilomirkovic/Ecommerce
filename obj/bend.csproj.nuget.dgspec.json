@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danil\\study\\ecommerce\\saltazonFrontend\\bend\\bend.csproj": {}
+    "C:\\Users\\danil\\Ecommerce\\bend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danil\\study\\ecommerce\\saltazonFrontend\\bend\\bend.csproj": {
+    "C:\\Users\\danil\\Ecommerce\\bend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danil\\study\\ecommerce\\saltazonFrontend\\bend\\bend.csproj",
+        "projectUniqueName": "C:\\Users\\danil\\Ecommerce\\bend.csproj",
         "projectName": "bend",
-        "projectPath": "C:\\Users\\danil\\study\\ecommerce\\saltazonFrontend\\bend\\bend.csproj",
+        "projectPath": "C:\\Users\\danil\\Ecommerce\\bend.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danil\\study\\ecommerce\\saltazonFrontend\\bend\\obj\\",
+        "outputPath": "C:\\Users\\danil\\Ecommerce\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -35,26 +35,40 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.11, )"
+              "version": "[7.0.2, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[6.0.11, )"
+              "version": "[7.0.1, )"
             },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "Serilog": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[2.12.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -76,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
